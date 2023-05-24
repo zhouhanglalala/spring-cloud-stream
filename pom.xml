@@ -66,13 +66,18 @@
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-tuple</artifactId>
-				<version>${spring.tuple.version}</version>
+				<version>1.0.0.RELEASE</version>
+				<scope>system</scope>
+				<systemPath>/Users/zhouhang/.m2/repository/org/springframework/spring-tuple/1.0.0.RELEASE/spring-tuple-1.0.0.RELEASE.jar</systemPath>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.integration</groupId>
 				<artifactId>spring-integration-tuple</artifactId>
-				<version>${spring.integration.tuple.version}</version>
+				<version>1.0.0.RELEASE</version>
+				<scope>system</scope>
+				<systemPath>/Users/zhouhang/.m2/repository/org/springframework/integration/spring-integration-tuple/1.0.0.RELEASE/spring-integration-tuple-1.0.0.RELEASE.jar</systemPath>
 			</dependency>
+
 			<dependency>
 				<groupId>io.projectreactor</groupId>
 				<artifactId>reactor-bom</artifactId>
@@ -165,7 +170,7 @@
 					<plugin>
 						<groupId>org.jacoco</groupId>
 						<artifactId>jacoco-maven-plugin</artifactId>
-						<version>0.7.9</version>
+						<version>0.8.2</version>
 						<executions>
 							<execution>
 								<id>agent</id>
